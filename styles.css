@@ -25,3 +25,15 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
+
+.discoDancer {
+  border:10px solid pink;
+  border-radius:10px;
+  position:absolute;
+}
+
+.squareDancer {
+  border:10px solid orange;
+  position:absolute;
+  border-radius: 0;
+}
