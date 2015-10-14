@@ -25,15 +25,24 @@ body, a:link, a:visited, a:active{
   border-radius:10px;
   position:absolute;
 }
-
 .discoDancer {
   border:10px solid pink;
   border-radius:10px;
   position:absolute;
+  transition-duration: 0.8s;
+  transition-property: transform;
 }
-
+.discoDancer:hover{
+  transform: scale(2, 5);
+}
 .squareDancer {
-  border:10px solid orange;
+  border:20px solid orange;
   position:absolute;
   border-radius: 0;
+  transition-duration: 0.8s;
+  transition-property: transform;
+}
+.squareDancer:hover {
+  transform: rotate(360deg);
+  content: url(http://scrapetv.com/News/News%20Pages/Everyone%20Else/images/ronald-reagan-cowboy.JPG);
 }
